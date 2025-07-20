@@ -5,36 +5,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Sign Up</title>
   <style>
-    /* Body background with smooth gradient */
     body {
       margin: 0;
       padding: 0;
       min-height: 100vh;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%);
+      background: linear-gradient(135deg, #6A2B1F, #A03721); /* ✅ Your provided reddish gradient */
       display: flex;
       align-items: center;
       justify-content: center;
     }
 
-    /* Signup Card Container */
     .signup-container {
       width: 100%;
       max-width: 420px;
       padding: 30px 25px;
-      background: rgba(255, 255, 255, 0.25);
-      border-radius: 16px;
-      backdrop-filter: blur(10px);
-      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+      background: #fff;
+      border-radius: 14px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
       color: #333;
     }
 
-    /* Form Header */
     .signup-form h1 {
       text-align: center;
-      margin-bottom: 24px;
+      margin-bottom: 25px;
       font-size: 26px;
-      color: #222;
+      color: #A03721;
     }
 
     .mb-3 {
@@ -50,16 +46,15 @@
 
     .form-control {
       width: 100%;
-      padding: 10px 12px;
+      padding: 10px;
       border: 1px solid #ccc;
-      border-radius: 8px;
+      border-radius: 6px;
       font-size: 14px;
       outline: none;
-      background-color: #fff;
     }
 
     .form-control:focus {
-      border-color: #8e44ad;
+      border-color: #A03721;
     }
 
     .form-text {
@@ -72,8 +67,8 @@
       width: 100%;
       padding: 12px;
       border: none;
-      border-radius: 8px;
-      background: linear-gradient(to right, #8e2de2, #4a00e0);
+      border-radius: 6px;
+      background-color: #A03721;
       color: white;
       font-weight: bold;
       font-size: 15px;
@@ -82,16 +77,15 @@
     }
 
     .btn:hover {
-      background: linear-gradient(to right, #4a00e0, #8e2de2);
+      background-color: #6A2B1F;
     }
 
-    /* Header Styling */
     header {
       position: fixed;
       top: 0;
       left: 0;
       width: 100%;
-      background: rgba(255, 255, 255, 0.1);
+      background: rgba(0, 0, 0, 0.2);
       backdrop-filter: blur(6px);
       padding: 12px 20px;
       display: flex;
@@ -122,6 +116,7 @@
       .signup-container {
         width: 90%;
       }
+
       nav ul {
         flex-direction: column;
         align-items: center;
@@ -146,7 +141,7 @@
   <!-- Sign Up Form -->
   <div class="signup-container">
     <form class="signup-form">
-      <h1>Create Account</h1>
+      <h1>Sign Up</h1>
 
       <div class="mb-3">
         <label for="firstName" class="form-label">First Name</label>
